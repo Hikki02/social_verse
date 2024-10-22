@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "travel-verse"
+version = "0.1.0"
+description = ""
+authors = ["Hikki25 <adilet.ai@breeze.pro>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.1.2"
+djangorestframework = "^3.15.2"
+drf-yasg = "^1.21.8"
+djangorestframework-simplejwt = "^5.3.1"
+django-filter = "^24.3"
+pillow = "^11.0.0"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+psycopg2-binary = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
